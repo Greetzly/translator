@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
-gem "rails", "3.2.7"
-gem 'i18n', '0.6.11'
+gem "rails", "4.2.0"
+gem 'i18n'
 gem 'yajl-ruby', require: 'yajl/json_gem'
 gem "mongo", "1.1"
 gem "bson_ext", ">=1.0.5"
@@ -20,4 +20,3 @@ gem "timecop", "0.3.5"
 gem "cgi_multipart_eof_fix"
 gem "fastthread"
 gem "pry"
-
